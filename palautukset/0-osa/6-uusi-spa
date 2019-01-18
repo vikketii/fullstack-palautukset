@@ -1,0 +1,14 @@
+note over selain
+Selain lähettää JSON-muotoisen
+pyynnön palvelimelle
+end note
+selain->palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note over palvelin
+palvelin kertoo vastaanottaneensa
+pyynnön onnistuneesti
+end note
+palvelin-->selain: Status Code 201 Created
+note over selain
+selain pysyy samalla sivulla eikä
+muita HTTP-pyyntöjä suoriteta
+end note
