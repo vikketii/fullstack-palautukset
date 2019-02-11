@@ -1,0 +1,3 @@
+[submodule "3-osa/puhelinluettelo/puhelinluettelo-back"]
+	path = 3-osa/puhelinluettelo/puhelinluettelo-back
+	url = git@github.com:vikketii/fullstack-osa3-puhelinluettelo.git
