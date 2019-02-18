@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkR1ZGUyIiwiaWQiOiI1YzZhYTFlZGMzMmQ5MDFlZDdjYzBmYmUiLCJpYXQiOjE1NTA0OTIxNjV9.A7xCkAg-LWWXMh9KSQva722kuLqyI01kman8x4e_IC8
+
+{
+  "title": "Dudeblog",
+  "author": "Testi Testinen",
+  "url": "testi.fi",
+  "likes": 123123
+}
